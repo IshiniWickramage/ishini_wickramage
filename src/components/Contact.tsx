@@ -74,7 +74,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/in/IshiniWickramage"
+                href="https://www.linkedin.com/in/ishini-wickramage-0b6733264/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-2 rounded-full border border-zinc-700 px-6 py-3 hover:border-sky-400 transition"
