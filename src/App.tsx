@@ -4,10 +4,11 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
-import Education from "./components/Education";
+
 import Extracurricular from "./components/Extracurricular";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-        <Education />
+        <Education/>
         <Extracurricular />
         <Contact />
       </main>
