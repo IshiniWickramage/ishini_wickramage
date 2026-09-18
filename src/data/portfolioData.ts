@@ -12,7 +12,6 @@ import {
 import {
   SiTypescript,
   SiJavascript,
-  SiCplusplus,
   SiDotnet,
   SiPostgresql,
   SiMysql,
@@ -23,6 +22,7 @@ import {
 } from "react-icons/si";
 import { DiMsqlServer } from "react-icons/di";
 import { BsFiletypeScss } from "react-icons/bs";
+import { RiFigmaFill } from "react-icons/ri";
 
 export const skills = [
   {
@@ -70,11 +70,7 @@ export const skills = [
     icon: FaPython,
     category: "Programming",
   },
-  {
-    name: "C++",
-    icon: SiCplusplus,
-    category: "Programming",
-  },
+  
   {
     name: "ASP.NET Core",
     icon: SiDotnet,
@@ -114,6 +110,11 @@ export const skills = [
     name: "TensorFlow",
     icon: SiTensorflow,
     category: "AI / ML",
+  },
+  {
+    name: "Figma",
+    icon: RiFigmaFill,
+    category: "Tools",
   },
   {
     name: "Git",
